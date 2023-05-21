@@ -1,5 +1,6 @@
 import com.milkyway.objects.Planet;
 import com.milkyway.objects.Star;
+import com.milkyway.objects.Sun;
 
 public class MilkyWayApplication {
 
@@ -22,7 +23,7 @@ public class MilkyWayApplication {
 	    uranus.displayInfo();
 	    neptune.displayInfo();
 
-	    Star sun = new Star("Sun", 696342, 1.989e30, "G-type");
+	    Star sun = Sun.getInstance();
         Star sirius = new Star("Sirius", 1674000, 2.063e30, "A1V");
         Star betelgeuse = new Star("Betelgeuse", 936000000, 1.434e31, "M1-M2Ia-Iab");
         
